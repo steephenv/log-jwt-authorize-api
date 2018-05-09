@@ -1,0 +1,22 @@
+{
+  "name": "nodejwt",
+  "version": "1.0.0",
+  "description": "jwt signup-login",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  
+  "author": "steephen",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.1",
+    "mongoose": "^5.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
